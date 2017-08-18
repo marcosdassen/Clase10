@@ -1,6 +1,6 @@
 package com.despegar.jav.Clase10;
 
-public class LineaDeArchivo {
+public class Restaurante {
 	private String id;
 	private boolean activo;
 	private Float costoPorSemana;
@@ -8,7 +8,7 @@ public class LineaDeArchivo {
 	private String zona;
 	private String nombre;
 	private String telefono;
-	public LineaDeArchivo(String id, boolean activo, Float costoPorSemana, Integer recomendaciones, String zona,
+	public Restaurante(String id, boolean activo, Float costoPorSemana, Integer recomendaciones, String zona,
 			String nombre, String telefono) {
 		super();
 		this.id = id;
